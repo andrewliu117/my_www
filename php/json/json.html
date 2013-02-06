@@ -1,0 +1,38 @@
+<html>
+<head>
+<script src="responsejson.js"></script>
+</head>
+<body>
+
+<form> 
+Select a User:
+<select name="users" onchange="showUser(this.value)">
+<option value="1">Peter Griffin</option>
+<option value="2">Lois Griffin</option>
+<option value="3">Glenn Quagmire</option>
+<option value="4">Joseph Swanson</option>
+</select>
+</form>
+
+<p>
+Json text:
+<span id="json_text"></span>
+</p>
+
+<h2>
+<span id="firstname"></span>&nbsp;<span id="lastname"></span>
+</h2>
+
+<span id="job"></span>
+
+<div >
+<br/>
+<span id="age_text"></span>
+<span id="age"></span>
+<br/>
+<span id="hometown_text"></span>
+<span id="hometown"></span>
+</div>
+
+</body>
+</html>
